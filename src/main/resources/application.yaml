@@ -6,7 +6,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/quarkus-based-application/configs.git
+          uri: https://github.com/quarkus-based-application/configs
+          clone-on-start: true
+          skip-ssl-validation: true
 
 server:
   port: 8888
