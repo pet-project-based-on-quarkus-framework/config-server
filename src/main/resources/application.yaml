@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/quarkus-based-application/configs
+          uri: https://github.com/pet-project-based-on-quarkus-framework/configs
           clone-on-start: true
           skip-ssl-validation: true
 
